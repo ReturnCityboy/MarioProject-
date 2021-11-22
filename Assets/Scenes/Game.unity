@@ -5993,8 +5993,8 @@ MonoBehaviour:
   enemyList: []
   cloudNum: 0
   enemyNum: 0
-  cloudNumMax: 5
-  enemyNumMax: 5
+  cloudNumMax: 3
+  enemyNumMax: 3
   cloudSpawnTime: 2
   cloudTime: 0
   enemySpawnTime: 2
