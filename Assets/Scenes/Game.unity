@@ -909,7 +909,7 @@ GameObject:
   - component: {fileID: 257687786}
   - component: {fileID: 257687787}
   m_Layer: 0
-  m_Name: Enemynode2 (1)
+  m_Name: Enemynode4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -923,7 +923,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 257687785}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 94.5, y: 1.15, z: 0}
+  m_LocalPosition: {x: 16, y: -0.48, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1733903540}
@@ -1099,7 +1099,7 @@ GameObject:
   - component: {fileID: 364949524}
   - component: {fileID: 364949525}
   m_Layer: 0
-  m_Name: New Sprite (1)
+  m_Name: Enemynode2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1113,11 +1113,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 364949523}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 24.5, y: 4.03, z: 0}
+  m_LocalPosition: {x: -0.9, y: -0.48, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1733903540}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &364949525
 SpriteRenderer:
@@ -5885,7 +5885,7 @@ GameObject:
   - component: {fileID: 682312088}
   - component: {fileID: 682312089}
   m_Layer: 0
-  m_Name: Enemynode2
+  m_Name: Enemynode3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5899,7 +5899,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 682312087}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 46.9, y: 1.15, z: 0}
+  m_LocalPosition: {x: 8, y: -0.48, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1733903540}
@@ -5988,25 +5988,28 @@ MonoBehaviour:
   player: {fileID: 1954444434}
   cloudPrefabs: {fileID: 7833314803494484458, guid: ba4c61a12e547854d8956835ca357ffb,
     type: 3}
-  enemyPrefabs: {fileID: 6136223837068413176, guid: 2a28fd914fc5ff940a1deafed9e27bdb,
-    type: 3}
-  enemyList: []
   cloudNum: 0
-  enemyNum: 0
   cloudNumMax: 3
-  enemyNumMax: 3
   cloudSpawnTime: 2
   cloudTime: 0
-  enemySpawnTime: 2
+  cloudnodes:
+  - {x: -7, y: -2.8}
+  - {x: -0.9, y: -2.8}
+  - {x: 8, y: -2.8}
+  enemyPrefabs: {fileID: 6136223837068413176, guid: 2a28fd914fc5ff940a1deafed9e27bdb,
+    type: 3}
+  enemyNum: 0
+  enemyNumMax: 3
+  enemySpawnTime: 4
   enemyTime: 0
-  enemyoff: []
-  nodes:
-  - {x: -8.72, y: 4.03}
-  - {x: 4.1, y: 4.03}
+  enemyList: []
+  enemyOff: []
+  enemyOn: []
   enemynodes:
-  - {x: 6.79, y: -0.06}
-  - {x: 14.23, y: -0.06}
-  - {x: 94.5, y: -0.06}
+  - {x: 6, y: -2.8}
+  - {x: 8, y: -2.8}
+  - {x: 10, y: -2.8}
+  - {x: 37.13, y: -2.8}
 --- !u!4 &689530758
 Transform:
   m_ObjectHideFlags: 0
@@ -6015,7 +6018,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 689530756}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.907516, y: -5.1622677, z: -6.24451}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6125,7 +6128,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 794862594}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.1, y: 4.03, z: 0}
+  m_LocalPosition: {x: -16.43, y: 4.95, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1733903540}
@@ -6802,11 +6805,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1059821796}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.8, y: 1.15, z: 0}
+  m_LocalPosition: {x: -7, y: -0.48, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1733903540}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1059821798
 SpriteRenderer:
@@ -7950,8 +7953,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 794862595}
-  - {fileID: 364949524}
   - {fileID: 1059821797}
+  - {fileID: 364949524}
   - {fileID: 682312088}
   - {fileID: 257687786}
   m_Father: {fileID: 0}
